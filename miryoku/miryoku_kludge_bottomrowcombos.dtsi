@@ -16,6 +16,8 @@ bottomrowcombos_ ## LAYER ## _ ## POSITION { \
 #if defined (MIRYOKU_LAYERS_FLIP)
   #if defined (MIRYOKU_ALPHAS_AZERTY)
     #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
+  #elif defined (MIRYOKU_ALPHAS_BEPO)
+    #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
   #elif defined (MIRYOKU_ALPHAS_BEAKL15)
     #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
   #elif defined (MIRYOKU_ALPHAS_COLEMAK)
@@ -44,6 +46,8 @@ bottomrowcombos_ ## LAYER ## _ ## POSITION { \
   #endif
 #else
   #if defined (MIRYOKU_ALPHAS_AZERTY)
+    #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
+  #elif defined (MIRYOKU_ALPHAS_BEPO)
     #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
   #elif defined (MIRYOKU_ALPHAS_BEAKL15)
     #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
