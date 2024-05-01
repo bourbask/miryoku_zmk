@@ -13,9 +13,9 @@ U_LT(U_BUTTON, W), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEPO_FLIP \
-&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp !,             &kp V,             &kp D,             &kp L,             &kp J,             \
-U_MT(LGUI, A),     U_MT(LALT, U),     U_MT(LCTRL, I),    U_MT(LSHFT, E),    &kp ;,             &kp C,             U_MT(LSHFT, T),    U_MT(LCTRL, S),    U_MT(LALT, R),     U_MT(LGUI, N),     \
-U_LT(U_BUTTON, Ê), U_MT(RALT, À),     &kp Y,             &kp X,             &kp :,             &kp K,             &kp ?,             U_MT(RALT, Q),    U_MT(RCTRL, G),    U_MT(RALT, H),    U_MT(RCTRL, F),    \
+&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp "!",             &kp V,             &kp D,             &kp L,             &kp J,             \
+U_MT(LGUI, A),     U_MT(LALT, U),     U_MT(LCTRL, I),    U_MT(LSHFT, E),    &kp ";",             &kp C,             U_MT(LSHFT, T),    U_MT(LCTRL, S),    U_MT(LALT, R),     U_MT(LGUI, N),     \
+U_LT(U_BUTTON, Ê), U_MT(RALT, À),     &kp Y,             &kp X,             &kp ":",             &kp K,             &kp "?",             U_MT(RALT, Q),    U_MT(RCTRL, G),    U_MT(RALT, H),    U_MT(RCTRL, F),    \
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
@@ -79,9 +79,9 @@ U_LT(U_BUTTON, W), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEPO \
-&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp !,             &kp V,             &kp D,             &kp L,             &kp J,             \
-U_MT(LGUI, A),     U_MT(LALT, U),     U_MT(LCTRL, I),    U_MT(LSHFT, E),    &kp ;,             &kp C,             U_MT(LSHFT, T),    U_MT(LCTRL, S),    U_MT(LALT, R),     U_MT(LGUI, N),     \
-U_LT(U_BUTTON, Ê), U_MT(RALT, À),     &kp Y,             &kp X,             &kp :,             &kp K,             &kp ?,             U_MT(RALT, Q),    U_MT(RCTRL, G),    U_MT(RALT, H),    U_MT(RCTRL, F),    \
+&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp "!",             &kp V,             &kp D,             &kp L,             &kp J,             \
+U_MT(LGUI, A),     U_MT(LALT, U),     U_MT(LCTRL, I),    U_MT(LSHFT, E),    &kp ";",             &kp C,             U_MT(LSHFT, T),    U_MT(LCTRL, S),    U_MT(LALT, R),     U_MT(LGUI, N),     \
+U_LT(U_BUTTON, Ê), U_MT(RALT, À),     &kp Y,             &kp X,             &kp ":",             &kp K,             &kp "?",             U_MT(RALT, Q),    U_MT(RCTRL, G),    U_MT(RALT, H),    U_MT(RCTRL, F),    \
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
@@ -146,9 +146,9 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,           &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEPO_FLIP \
-&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp !,             &kp V,             &kp D,             &kp L,             &kp J,             \
-&kp A,             &kp U,             &kp I,             &kp E,             &kp ;,             &kp C,             &kp T,             &kp S,             &kp R,             &kp N,             \
-&kp Ê,             &kp À,             &kp Y,             &kp X,             &kp :,             &kp K,             &kp ?,             &kp Q,             &kp G,             &kp H,             \
+&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp "!",             &kp V,             &kp D,             &kp L,             &kp J,             \
+&kp A,             &kp U,             &kp I,             &kp E,             &kp ";",             &kp C,             &kp T,             &kp S,             &kp R,             &kp N,             \
+&kp Ê,             &kp À,             &kp Y,             &kp X,             &kp ":",             &kp K,             &kp "?",             &kp Q,             &kp G,             &kp H,             \
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,           &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP \
@@ -212,9 +212,9 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp 
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEPO \
-&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp !,             &kp V,             &kp D,             &kp L,             &kp J,             \
-&kp A,             &kp U,             &kp I,             &kp E,             &kp ;,             &kp C,             &kp T,             &kp S,             &kp R,             &kp N,             \
-&kp Ê,             &kp À,             &kp Y,             &kp X,             &kp :,             &kp K,             &kp ?,             &kp Q,             &kp G,             &kp H,             \
+&kp B,             &kp É,             &kp P,             &kp O,             &kp È,             &kp "!",             &kp V,             &kp D,             &kp L,             &kp J,             \
+&kp A,             &kp U,             &kp I,             &kp E,             &kp ";",             &kp C,             &kp T,             &kp S,             &kp R,             &kp N,             \
+&kp Ê,             &kp À,             &kp Y,             &kp X,             &kp ":",             &kp K,             &kp "?",             &kp Q,             &kp G,             &kp H,             \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
